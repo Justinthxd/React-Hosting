@@ -1,0 +1,71 @@
+[debug] [2023-10-23T13:19:26.935Z] ----------------------------------------------------------------------
+[debug] [2023-10-23T13:19:26.936Z] Command:       /opt/homebrew/Cellar/node/20.5.0/bin/node /opt/homebrew/bin/firebase init
+[debug] [2023-10-23T13:19:26.937Z] CLI Version:   12.4.0
+[debug] [2023-10-23T13:19:26.937Z] Platform:      darwin
+[debug] [2023-10-23T13:19:26.937Z] Node Version:  v20.5.0
+[debug] [2023-10-23T13:19:26.937Z] Time:          Mon Oct 23 2023 09:19:26 GMT-0400 (Alaska Standard Time)
+[debug] [2023-10-23T13:19:26.937Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-23T13:19:26.939Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-23T13:19:26.939Z] > authorizing via signed-in user (justinthxd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/justininoa/Documents/- P -/React/04-gif-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-23T13:19:36.563Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-10-23T13:19:37.153Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-10-23T13:19:37.154Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project react-test-b4d99 (React Test) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-10-23T13:19:58.821Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-10-23T13:19:58.984Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-10-23T13:19:58.984Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.5.0","browserURL":"https://www.gstatic.com/firebasejs/10.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.5.0/firebase.tgz"},"live":{"version":"10.5","browserURL":"https://www.gstatic.com/firebasejs/live/10.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.5.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.5.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/justininoa/Documents/- P -/React/04-gif-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=420188847&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-10-23T13:20:08.709Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-10-23T13:20:08.709Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-10-23T13:20:09.017Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-10-23T13:20:09.018Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-10-23T13:20:09.026Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-10-23T13:20:09.360Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-10-23T13:20:09.360Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Justinthxd","id":77162676,"node_id":"MDQ6VXNlcjc3MTYyNjc2","avatar_url":"https://avatars.githubusercontent.com/u/77162676?v=4","gravatar_id":"","url":"https://api.github.com/users/Justinthxd","html_url":"https://github.com/Justinthxd","followers_url":"https://api.github.com/users/Justinthxd/followers","following_url":"https://api.github.com/users/Justinthxd/following{/other_user}","gists_url":"https://api.github.com/users/Justinthxd/gists{/gist_id}","starred_url":"https://api.github.com/users/Justinthxd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Justinthxd/subscriptions","organizations_url":"https://api.github.com/users/Justinthxd/orgs","repos_url":"https://api.github.com/users/Justinthxd/repos","events_url":"https://api.github.com/users/Justinthxd/events{/privacy}","received_events_url":"https://api.github.com/users/Justinthxd/received_events","type":"User","site_admin":false,"name":"Justin Inoa","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"I'm justin, software developer, here I leave my creations and contributions.","twitter_username":null,"public_repos":35,"public_gists":0,"followers":5,"following":6,"created_at":"2021-01-08T15:41:13Z","updated_at":"2023-10-23T12:30:55Z","private_gists":0,"total_private_repos":9,"owned_private_repos":9,"disk_usage":194540,"collaborators":2,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Justinthxd 
+[info] 
+[debug] [2023-10-23T13:20:22.432Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-23T13:20:22.646Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-10-23T13:20:22.646Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
